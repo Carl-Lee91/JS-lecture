@@ -1,1 +1,9 @@
-alert("hi");
+const player = {
+    name: "Carl",
+    points: 10, 
+    fat: true,
+};
+console.log(player);
+player.lastName = "potato";
+player.points = 15;
+console.log(player);
